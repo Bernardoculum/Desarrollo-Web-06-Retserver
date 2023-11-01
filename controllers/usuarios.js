@@ -34,6 +34,20 @@ const UsuariosPost = async (req, res = response) => {
 
 }
 
+// const UsuariosPost = (req, res = response) => {
+
+//     const {nombre, edad} = req.body;
+
+//     res.json({
+//         msg: 'post API - Controlador',
+//         nombre,
+//         edad
+//     });
+
+
+// }
+
+
 const UsuariosPut =  (req, res = response) => {
 
     const {id} = req.params;
